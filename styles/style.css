@@ -1,0 +1,121 @@
+ /* external css style       */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background: linear-gradient(90deg,rgb(73, 71, 71),rgb(24, 1, 1));
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+ }
+ nav h1{
+    font-size: 40px;
+    padding: 20px;
+    font-style: italic;
+ }
+ nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+    
+    
+
+ }
+ nav ul li{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 30px;
+    color: rgb(10, 6, 0);
+    font-weight: 900;
+    
+ }
+  nav ul li:hover{
+    color: rgb(255, 72, 0);
+    box-shadow: 2px 2px 10px;
+
+  }
+ /* task one style  */
+ .task{
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(44, 248, 214);
+    font-style: italic;
+    margin:20px auto;
+    text-decoration: underline;
+    /* background-color: black; */
+ }
+ .task:hover{
+    box-shadow: 1px 1px 10px;
+ }
+ .blog{
+    color: rgb(248, 251, 253);
+    width: 250px;
+    padding: 20px;
+    font-size: 30px;
+ }
+ 
+    
+
+ .sojol1{
+    background-color: rgb(29, 21, 1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+ }
+ /* task2 style */
+ .cox{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px;
+    margin: 20px;
+ }
+ .cox-ct{
+    width: 50%;
+       /* border: 0.5px solid white; */
+ }
+ .cox-ct h2{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+ }
+ .cox-ct p{
+    text-align: center;
+    color: darkorange;
+    font-size: 20px;
+    margin: 30px ;
+ }
+ .cox img{
+    width: 50%;
+    height: 100%;
+ }
+ .btn-ct{
+    width: 200px;
+    margin: 5px auto;
+ }
+ .btn{
+   
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(250, 225, 225);
+ }
