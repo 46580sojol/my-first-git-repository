@@ -106,16 +106,35 @@
     height: 100%;
  }
  .btn-ct{
-    width: 200px;
-    margin: 5px auto;
+   width: 100px;
+   margin: 10px auto;
+   /* border: 2px solid goldenrod; */
  }
+ 
  .btn{
    
+   width: 100%;
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: rgb(250, 225, 225);
+ }
+ /* task three style */
+ .three{
+   text-align: center;
+   margin: 20px auto;
+   width: 350px;
+   color: darkorange;
+   text-decoration: none;
+ }
+ .form1{
+   /* border: 2px solid red; */
+   width: 400px;
+   margin: 10px auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
  }
