@@ -130,6 +130,14 @@
    color: darkorange;
    text-decoration: none;
  }
+ .box{
+   background: url(../images/home.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+
+   /* background-position:center; */
+   
+ }
  .form1{
    /* border: 2px solid red; */
    width: 400px;
@@ -137,4 +145,15 @@
    display: flex;
    flex-direction: column;
    gap: 20px;
+ }
+ input[type="email"] ,[type="password"] {
+   font-size: 20px;
+   border-radius: 10px;
+   padding-left: 20px;
+
+
+ }
+ input[type="submit"]{
+   font-size: 20px;
+   border-radius: 10px;
  }
